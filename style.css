@@ -1,0 +1,19 @@
+.grid{
+    display: flex; /*da poreda blokove u red*/
+    flex-wrap: wrap;
+    width: 400px;
+    height: 400px;
+    background-color: blue;  
+    border: 1px solid darkgray;
+}
+
+/*vrijedi za sve divove unutar grida*/
+.grid div{
+    width: 98px;
+    height: 98px;
+    background-color: cornsilk;
+    font-size: 40px;
+    text-align: center;
+    font-weight: bold;
+    border: 1px solid darkgray;
+}
